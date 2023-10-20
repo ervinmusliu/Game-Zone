@@ -1,0 +1,101 @@
+#GamerZone{
+    background-color: midnightblue;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: crimson;
+    text-transform: capitalize;
+}
+
+.em-title{
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.em-text{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+.em-image{
+    width: 80%;
+    padding-left: 20%;
+}
+
+.firstArticle{
+    background-color: chartreuse;
+    margin-top: 30px;
+}
+
+.secondArticle{
+    background-color: chartreuse;
+    margin-top: 30px;
+}
+
+.thirdArticle{
+    background-color: chartreuse;
+    margin-top: 30px;
+}
+
+.topnav{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(255, 72, 0);
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.topnav a{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+
+a:hover{
+    size: 10%;
+}
+
+.text {
+    color: #f2f2f2;
+    font-size: 20px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: #717171;
+  }
+
+  footer{
+    background-color: crimson;
+    text-align: center;
+    position: relative;
+    height: 20px;
+    margin-top: 100px;
+    clear: both;
+    text-transform: capitalize;
+  }
